@@ -1,0 +1,16 @@
+{
+  "name": "spinman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gcloud functions deploy spinmanMail --runtime nodejs12 --trigger-http --allow-unauthenticated"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2",
+    "class-validator": "^0.13.1",
+    "dotenv": "^8.2.0"
+  }
+}
